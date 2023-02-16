@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  color: darkslateblue;
+  color: rgb(16, 109, 109);
   font-family: 'Abel', sans-serif;
   font-size: 40px;
 }
@@ -36,6 +36,15 @@ h1 {
   margin: 5px;
   width: 80%;
   height: 80%;
+  border-radius: 50%;
+}
+
+.piece.p1 {
+  background-color: red;
+}
+
+.piece.p2 {
+  background-color: blue;
 }
 
 /* TODO: make pieces red/blue,  depending on player 1/2 piece */
